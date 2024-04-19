@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: rgb(116, 61, 42);
+    padding: 10px 70px;
+    justify-content: space-between;
+}
+
+
+header li{
+    list-style: none;
+}
+
+section {
+    padding: 20px 70px;
+    display: flex;
+    align-items: center;
+}
+
+.esquerdo img{
+    width: 40vw;
+    height: fit-content;
+    align-items: center;
+    object-fit: cover;
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.3);
+}
+
+.direito{
+    padding: 50px 70px;
+}
+
+#sobre{
+    background-color: rgb(106, 77, 41);
+}
+
+#caracter{
+    display: flex;
+    background-color: rgb(88, 62, 29);
+}
+
+.direção{
+    padding: 50px;
+}
+
+.produtores{
+    padding: 30px;
+}
+
+.sinopse{
+    padding: 20px;
+}
+
+#home{
+    background-color: rgb(104, 72, 34);
+}
+
+footer{
+    padding: 40px 50px;
+    background-color: rgb(116, 61, 42);
+}
+
+.fim{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-around;
+}
